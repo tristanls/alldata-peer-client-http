@@ -71,6 +71,7 @@ Creates a new instance of AllDataPeerClient.
     * `method`: _String_ _(Default: as specified in constructor `options.method`)_ HTTP method.
     * `path`: _String_ _(Default: as specified in constructor `options.path`)_ HTTP request path.
     * `port`: _Integer_ _(Default: as specified in constructor `options.port`)_ HTTP port of remote server.
+  * `key`: _String_ AllData key generated for the `event`.    
   * `event`: _Object_ JavaScript object representing the event to store.
   * `callback`: _Function_ `function (error) {}` Callback to call in case of success or failure.
 
