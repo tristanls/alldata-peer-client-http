@@ -1,6 +1,6 @@
 {
   "name": "alldata-peer-client-http",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "AllData Peer HTTP client module",
   "scripts": {
     "test": "node scripts/test.js"
