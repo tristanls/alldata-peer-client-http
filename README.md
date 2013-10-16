@@ -77,7 +77,7 @@ Creates a new instance of AllDataPeerClient.
 Attempts to store the `event` with specified `key` at AllData peer specified in `options.hostname` via HTTP. `callback` must be provided and it will be called with an `Error` instance if an error occurs or with no parameters otherwise.
 
 ```javascript
-allDataPeerClient.put({hostname: "first.peer.com"}, key1, event1, function (error) {
+allDataPeerClient._put({hostname: "first.peer.com"}, key1, event1, function (error) {
     if (error) console.log('put failed: ' + error.message); 
 });
 ```
